@@ -1,0 +1,159 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ffecdb;
+  width: 100vw;
+  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+p, a, li {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+h3, .navbar-brand {
+  font-size: 1.7em;
+  font-family: 'Lora', Georgia, serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+a, a:visited {
+  color: #3455db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  font-weight: bold;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+main {
+  padding: 4rem;
+}
+
+header {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 60vh;
+  margin: auto;
+}
+
+header .intro-header {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .intro-header__text {
+  width: 40vw;
+}
+
+header img {
+  max-width: 40vw;
+}
+
+.cards__wrapper {
+  width: 70vw;
+  margin: auto;
+}
+
+.cards__directions {
+  width: 70vw;
+  margin: auto;
+}
+
+.cards__grid {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row wrap;
+          flex-direction: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card-btn {
+  width: 300px;
+  background-color: #b2cce5;
+  border-radius: 15px;
+  padding: 30px 20px 150px 30px;
+  min-height: 100%;
+}
+
+.card-btn a {
+  color: #1f1f1f;
+}
+
+.card-btn a:hover {
+  text-decoration: none;
+  background-color: #1f1f1f;
+}
+
+footer {
+  background-color: #f8f9fa;
+  bottom: 0;
+  width: 100vw;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,150 @@
+// _Colors - from colorsafe.co
+$btn-fill:#b2cce5;
+$btn-hover:#52b3d9;
+$background:#ffecdb;
+$egg: #f8f9fa;
+$text:#1f1f1f;
+$link: #3455db;
+
+// _Global Variables
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+    width: 100vw;
+    
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+p, a, li {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1.4rem;
+    font-family: 'Lora', Georgia, serif;
+}
+h3, .navbar-brand {
+  font-size: 1.7em;  
+  font-family: 'Lora', Georgia, serif;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Lora', Georgia, serif;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Lora', Georgia, serif;
+}
+
+a, a:visited {
+    color: $link;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:focus {
+font-weight: bold;
+}
+
+
+// Navigation
+nav {
+    .navbar-brand {
+        font-weight: bold;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+    }
+
+}
+
+// Content
+main {
+    padding:4rem;
+}
+
+// intro header
+header {
+    
+align-content: center;
+    height:60vh;
+    margin: auto;
+    
+    .intro-header {
+        flex-wrap: wrap;
+        display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+    }
+    .intro-header__text {
+width:40vw;
+    }
+
+    img {
+        max-width: 40vw;
+        
+    }
+
+}
+
+.cards__wrapper {
+    width: 70vw;
+    margin: auto;
+}
+.cards__directions {
+    width: 70vw;
+    margin: auto;
+}
+.cards__grid {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row wrap;
+justify-content: space-evenly;
+}
+
+.card-btn {
+    
+   width:300px;
+    background-color: $btn-fill;
+    border-radius:15px;
+    padding:  30px 20px 150px 30px;
+    min-height: 100%;
+     a {
+            color: $text;
+     }   
+    a:hover {
+        text-decoration: none;
+        background-color: #1f1f1f;
+    }
+}
+
+
+footer {
+    background-color: $egg;
+    bottom: 0;
+    width:100vw;
+    padding: 2rem;
+    text-align: center;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: inline-block;
+    }
+}
