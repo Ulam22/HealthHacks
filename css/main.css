@@ -99,6 +99,10 @@ header img {
   max-width: 40vw;
 }
 
+nav img {
+  width: 100px;
+}
+
 .cards__wrapper {
   width: 70vw;
   margin: auto;
@@ -163,4 +167,46 @@ footer li {
   width: 100vw;
   height: 100vh;
 }
+
+/* -------- NAVIGATION --------- */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eeeeee;
+  padding: 25px;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+/* top-nav */
+.top-nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-nav ul,
+.top-nav h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav li {
+  display: inline-block;
+}
+
+.sidebar {
+  line-height: 1.8rem;
+  width: 20vw;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+/* -------- MAIN --------- */
 /*# sourceMappingURL=main.css.map */
