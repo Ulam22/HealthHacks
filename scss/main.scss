@@ -74,11 +74,12 @@ nav {
 // Content
 main {
     padding:4rem;
+    height: 100vh;
 }
 
 // intro header
 header {
-    
+    padding-top:7rem;
 align-content: center;
     height:60vh;
     margin: auto;
@@ -147,4 +148,9 @@ footer {
     li {
         display: inline-block;
     }
+}
+
+#map {
+    width:100vw;
+    height: 100vh;
 }
